@@ -30,4 +30,4 @@ jobs:
 
       - run:
           name: Deploy application
-          command: sudo sls deploy --force --stage dev
+          command: sls deploy --force --stage dev
