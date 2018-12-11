@@ -59,7 +59,7 @@ functions:
     handler: function1/function1.hello1
     package:
       include:
-        - function1/fuction1.js
+        - function1/function1.js
         - node_modules/**
   hello2:
     handler: function2/function2.hello2
