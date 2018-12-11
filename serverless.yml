@@ -56,9 +56,9 @@ provider:
 
 functions:
   hello1:
-    handler: function1.hello1
+    handler: function1/function1.hello1
   hello2:
-    handler: function2.hello2
+    handler: function2/function2.hello2
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
