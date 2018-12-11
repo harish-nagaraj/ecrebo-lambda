@@ -25,13 +25,7 @@ jobs:
             cd ..
             cd function2
             npm install
-
-      - save_cache:
-          paths:
-            - function1/node_modules
-          key: v1-dependencies-
         
-
       - run:
           name: Deploy application
           command: sls deploy --force --stage dev
